@@ -61,7 +61,7 @@ class RNFontifyModule(reactContext: ReactApplicationContext) :
     try {
       val typeface = Typeface.createFromFile(file)
       ReactFontManager.getInstance().addCustomFont(fontName, typeface)
-      promise.resolve("")
+      promise.resolve(fontName)
     } catch (e: Throwable) {
       promise.reject("ERR_FONT_REGISTRATION", "Failed to register font", e)
     }
