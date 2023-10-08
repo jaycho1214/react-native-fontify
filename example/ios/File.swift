@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  FontifyExample
+//  RNFontifyExample
 //
 
 import Foundation

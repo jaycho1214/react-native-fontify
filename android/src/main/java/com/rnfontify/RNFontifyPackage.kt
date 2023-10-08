@@ -1,4 +1,4 @@
-package com.fontify
+package com.rnfontify
 
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule
@@ -6,9 +6,9 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.uimanager.ViewManager
 
 
-class FontifyPackage : ReactPackage {
+class RNFontifyPackage : ReactPackage {
   override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
-    return listOf(FontifyModule(reactContext))
+    return listOf(RNFontifyModule(reactContext))
   }
 
   override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {

@@ -1,4 +1,4 @@
-package com.fontifyexample;
+package com.rnfontifyexample;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
