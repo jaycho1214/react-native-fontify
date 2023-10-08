@@ -1,5 +1,4 @@
 import { NativeModules, Platform } from 'react-native';
-import { FontifyError } from './errors';
 
 const LINKING_ERROR =
   `The package 'react-native-fontify' doesn't seem to be linked. Make sure: \n\n` +
