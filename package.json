@@ -1,6 +1,6 @@
 {
   "name": "react-native-fontify",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Dynamically load fonts in React Native! Elevate your UI with on-the-fly typography.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
