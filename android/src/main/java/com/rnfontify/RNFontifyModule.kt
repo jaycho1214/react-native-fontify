@@ -39,7 +39,6 @@ class RNFontifyModule(reactContext: ReactApplicationContext) :
 
   @ReactMethod
   fun hasFont(fontName: String, promise: Promise) {
-    println(getSystemFonts())
     if (getSystemFonts().contains(fontName)) {
       return promise.resolve(true)
     }
