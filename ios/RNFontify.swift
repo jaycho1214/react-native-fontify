@@ -36,7 +36,7 @@ class RNFontify: NSObject {
           "ERR_FONT_REGISTRATION_UNKNOWN", "Failed to register font for unknown error", nil)
       }
 
-      if CTFontManagerError(rawValue: CFErrorGetCode(underlyingError)) == CTFontManagerError.alreadyRegistered
+      if CTFontManagerError(rawValue: CFErrorGetCode(underlyingError)) == CTFontManagerError.alreadyRegistered || CTFontManagerError(rawValue: CFErrorGetCode(underlyingError)) == CTFontManagerError.duplicatedName
       {
         return resolve(font.postScriptName as String?)
       }
